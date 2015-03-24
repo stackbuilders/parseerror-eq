@@ -8,7 +8,7 @@ import Text.Parsec.Pos (initialPos)
 import Text.ParseErrorEq ()
 
 spec :: Spec
-spec = describe "ParseError" $ do
-  it "has an Eq instance" $ do
-    (newErrorUnknown (initialPos "file")) `shouldBe`
-      (newErrorUnknown (initialPos "file"))
+spec = describe "ParseError" $
+  it "has an Eq instance" $
+    newErrorUnknown (initialPos "file") `shouldBe`
+      newErrorUnknown (initialPos "file")

@@ -31,7 +31,7 @@ import Text.Parsec.Error (ParseError)
 import Text.ParserCombinators.Parsec.Error
   (errorPos, errorMessages, messageString)
 
---| This implementation of Eq for ParseError is the same as the one
+-- This implementation of Eq for ParseError is the same as the one
 --  added in Parsec in the above commit.
 instance Eq ParseError where
   l == r
