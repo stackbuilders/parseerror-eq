@@ -55,3 +55,7 @@ test-suite parseerror-eq-test
   default-language:    Haskell2010
   ghc-options:         -Wall
   default-extensions:  CPP
+
+source-repository head
+  type:     git
+  location: git@github.com:stackbuilders/parseerror-eq.git
