@@ -4,7 +4,6 @@
 Module      : Text.ParseErrorEq
 Description : Adds an Eq instance for Parsec's ParseError type if needed
 Copyright   : (c) Stack Builders Inc., 2015
-                  Someone Else, 2014
 License     : GPL-3
 Maintainer  : justin@stackbuilders.com
 Stability   : experimental
