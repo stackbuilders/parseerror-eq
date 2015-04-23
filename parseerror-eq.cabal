@@ -1,5 +1,5 @@
 name:                parseerror-eq
-version:             0.1.0.0
+version:             0.1.0.1
 synopsis:            Adds and Eq instance for Parsec's ParseError if needed
 description:
   .
@@ -36,7 +36,7 @@ bug-reports:         https://github.com/stackbuilders/parseerror-eq/issues
 
 library
   exposed-modules:      Text.ParseErrorEq
-  build-depends:         base >=4.5 && <4.8
+  build-depends:         base >=4.5 && <4.9
                        , parsec
 
   hs-source-dirs:      src
@@ -48,7 +48,7 @@ test-suite parseerror-eq-test
   type: exitcode-stdio-1.0
   hs-source-dirs: spec, src
   main-is: Spec.hs
-  build-depends:       base >=4.5 && <4.8
+  build-depends:       base >=4.5 && <4.9
                        , parsec
                        , hspec
 
